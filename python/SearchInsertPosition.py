@@ -21,7 +21,7 @@ class Solution:
                     return low
                 # Locate target's expected position (target does not exist within array).
                 elif low == high and nums[low] > target:
-                    # Return target's expected position ()
+                    # Return target's expected position (current low and high).
                     return low
             elif target == nums[mid]:
                 return mid
